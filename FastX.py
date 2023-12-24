@@ -17,7 +17,7 @@ pygame.mixer.init()
 
 def music():
     pygame.mixer.music.load('songs/WWE - WWE_ Medal (Kurt Angle).mp3')
-    pygame.mixer.music.set_volume(0.5)
+    pygame.mixer.music.set_volume(0.3)
     pygame.mixer.music.play(-1)
 
 
@@ -127,6 +127,7 @@ second_music.set_volume(.2)
 second_music_playing = False
 
 jump_music = pygame.mixer.Sound('songs/jump.mp3')
+jump_music.set_volume(.3)
 
 hit_music = pygame.mixer.Sound('songs/mixkit-cartoon-dazzle-hit-and-birds-746.wav')
 hit_music.set_volume(1)
