@@ -85,6 +85,7 @@ def obstacle_moves(obstacle_list):
 def obstacles_collision(player, obstacle_list):
     for obs_rect in obstacle_list:
         if player.colliderect(obs_rect):
+            hit_music.play()
             return False
     return True
 
@@ -120,7 +121,12 @@ is_game_active = False
 h_msg = True
 played = False
 lose_fly = True
-second_music = pygame.mixer.Sound('songs/Head of the Table (Roman Reigns).mp3')
+
+second_music = pygame.mixer.Sound('songs/music.wav')
+second_music.set_volume(.2)
+jump_music = pygame.mixer.Sound('songs/jump.mp3')
+hit_music = pygame.mixer.Sound('songs/mixkit-cartoon-dazzle-hit-and-birds-746.wav')
+hit_music.set_volume(1)
 second_music_playing = False
 music()
 
@@ -139,10 +145,12 @@ while True:
 
         if event.type == pygame.MOUSEBUTTONDOWN and grounded:
             gravity = -20
+            jump_music.play()
 
         if event.type == pygame.KEYDOWN and grounded:
             if event.key == pygame.K_SPACE:
                 gravity = -20
+                jump_music.play()
 
         if not is_game_active:
             if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
