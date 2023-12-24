@@ -124,10 +124,13 @@ lose_fly = True
 
 second_music = pygame.mixer.Sound('songs/music.wav')
 second_music.set_volume(.2)
+second_music_playing = False
+
 jump_music = pygame.mixer.Sound('songs/jump.mp3')
+
 hit_music = pygame.mixer.Sound('songs/mixkit-cartoon-dazzle-hit-and-birds-746.wav')
 hit_music.set_volume(1)
-second_music_playing = False
+
 music()
 
 obstacle_list_rect = []
