@@ -14,8 +14,7 @@ FastX is an exhilarating game developed in Python using the Pygame library. It b
 
 ## Some Pics
 
-<img src="https://github.com/fares-agour/FastX-Game/assets/116801554/dc5d75ee-7ce2-436f-bd2a-02ee2cd3af8f.png" width="200">
-<img src="https://github.com/fares-agour/FastX-Game/assets/116801554/72258358-0aa8-46cb-b6f2-c1ba2dd186e0.png" width="200">
-<img src="https://github.com/fares-agour/FastX-Game/assets/116801554/ccbc46a4-116d-4afb-a710-57157527123d.png" width="200">
-<img src="https://github.com/fares-agour/FastX-Game/assets/116801554/05f881d6-06e8-4fd6-a10a-4f51b97c5cfa.png" width="200">
-
+<img src="https://github.com/user-attachments/assets/5a5035ae-cf8d-40b4-8cfa-b98ed17869cf" width="200">
+<img src="https://github.com/user-attachments/assets/0b820fdd-40c7-4a9c-a1c1-98671371ca86" width="200">
+<img src="https://github.com/user-attachments/assets/7c9779df-74e5-40c4-a3f4-9053961b72d8" width="200">
+<img src="https://github.com/user-attachments/assets/9829da7c-f809-4e33-b347-685a9282d8ab" width="200">
